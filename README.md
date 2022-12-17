@@ -1,1 +1,1 @@
-# Raspberry-pi-home-security-system..
+Home security system with Raspberry Pi and sending notifications with a Telegram bot
