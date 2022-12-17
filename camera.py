@@ -68,13 +68,13 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-4edb932eb78e.js"></script>
   
 
-  <title>raspberry_pi_home_security_system/README.md at master · m0by314/raspberry_pi_home_security_system</title>
+  <title>raspberry_pi_home_security_system/camera.py at master · m0by314/raspberry_pi_home_security_system</title>
 
 
 
     
 
-  <meta name="request-id" content="D76B:29FE:143B679:1E15033:639D4C7B" data-turbo-transient="true" /><meta name="html-safe-nonce" content="b5568d2d9aea49828376a6b76cd3158a667bcdfbd910dd652df3fa63a83d2a24" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tMGJ5MzE0L3Jhc3BiZXJyeV9waV9ob21lX3NlY3VyaXR5X3N5c3RlbSIsInJlcXVlc3RfaWQiOiJENzZCOjI5RkU6MTQzQjY3OToxRTE1MDMzOjYzOUQ0QzdCIiwidmlzaXRvcl9pZCI6IjU0NDQ5MjI4OTk3MjMwMjE0ODgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="be394e9db140cae89cf9cdf37e08f2ec4857efe7ccae20aafc1f72bb732d619e" data-turbo-transient="true" />
+  <meta name="request-id" content="D76B:29FE:1454C29:1E38B25:639D4E35" data-turbo-transient="true" /><meta name="html-safe-nonce" content="b5568d2d9aea49828376a6b76cd3158a667bcdfbd910dd652df3fa63a83d2a24" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tMGJ5MzE0L3Jhc3BiZXJyeV9waV9ob21lX3NlY3VyaXR5X3N5c3RlbS90cmVlL21hc3Rlci9saWIiLCJyZXF1ZXN0X2lkIjoiRDc2QjoyOUZFOjE0NTRDMjk6MUUzOEIyNTo2MzlENEUzNSIsInZpc2l0b3JfaWQiOiI1NDQ0OTIyODk5NzIzMDIxNDg4IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-turbo-transient="true" /><meta name="visitor-hmac" content="857d34ae1d0d23090a33e4c51edb0e97caf4f9a27e1fdd3175efc6b0984b46e4" data-turbo-transient="true" />
 
 
     <meta name="hovercard-subject-tag" content="repository:186301327" data-turbo-transient>
@@ -108,16 +108,16 @@
 
     <meta name="viewport" content="width=device-width">
     
-      <meta name="description" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/README.md at master · m0by314/raspberry_pi_home_security_system">
+      <meta name="description" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/camera.py at master · m0by314/raspberry_pi_home_security_system">
       <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
     <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/eab164f3f66a0f2b8ddb86a07de23b22f299152edf16835889565ad174010c18/m0by314/raspberry_pi_home_security_system" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="raspberry_pi_home_security_system/README.md at master · m0by314/raspberry_pi_home_security_system" /><meta name="twitter:description" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/README.md at master · m0by314/raspberry_pi_home_security_system" />
-      <meta property="og:image" content="https://opengraph.githubassets.com/eab164f3f66a0f2b8ddb86a07de23b22f299152edf16835889565ad174010c18/m0by314/raspberry_pi_home_security_system" /><meta property="og:image:alt" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/README.md at master · m0by314/raspberry_pi_home_security_system" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="raspberry_pi_home_security_system/README.md at master · m0by314/raspberry_pi_home_security_system" /><meta property="og:url" content="https://github.com/m0by314/raspberry_pi_home_security_system" /><meta property="og:description" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/README.md at master · m0by314/raspberry_pi_home_security_system" />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/eab164f3f66a0f2b8ddb86a07de23b22f299152edf16835889565ad174010c18/m0by314/raspberry_pi_home_security_system" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="raspberry_pi_home_security_system/camera.py at master · m0by314/raspberry_pi_home_security_system" /><meta name="twitter:description" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/camera.py at master · m0by314/raspberry_pi_home_security_system" />
+      <meta property="og:image" content="https://opengraph.githubassets.com/eab164f3f66a0f2b8ddb86a07de23b22f299152edf16835889565ad174010c18/m0by314/raspberry_pi_home_security_system" /><meta property="og:image:alt" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/camera.py at master · m0by314/raspberry_pi_home_security_system" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="raspberry_pi_home_security_system/camera.py at master · m0by314/raspberry_pi_home_security_system" /><meta property="og:url" content="https://github.com/m0by314/raspberry_pi_home_security_system" /><meta property="og:description" content="Home monitoring system with a Raspberry Pi and sending notifications with a Telegram bot - raspberry_pi_home_security_system/camera.py at master · m0by314/raspberry_pi_home_security_system" />
       
     <link rel="assets" href="https://github.githubassets.com/">
-      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/120768704/ws?session=eyJ2IjoiVjMiLCJ1IjoxMjA3Njg3MDQsInMiOjEwMTQ3MTM1NzYsImMiOjQwNTU3Mjg1OTgsInQiOjE2NzEyNTMxMjF9--f5c1c4d65c94b7d0559ff80e6bc13b0f31a1149c18d419ac82c0a3a384dcf1fa" data-refresh-url="/_alive" data-session-id="2aecee5f7b29d130a9a09e113d4f97ba982cc26169f76b23d9da6d575d9e10b8">
+      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/120768704/ws?session=eyJ2IjoiVjMiLCJ1IjoxMjA3Njg3MDQsInMiOjEwMTQ3MTM1NzYsImMiOjQxODUyMzc3MCwidCI6MTY3MTI1MzU3OX0=--623ce03284ed31171112c58dfe0313d8eb945c864e480699375a77c18cb574eb" data-refresh-url="/_alive" data-session-id="2aecee5f7b29d130a9a09e113d4f97ba982cc26169f76b23d9da6d575d9e10b8">
       <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-b87581f5816c.js">
 
 
@@ -147,7 +147,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md" data-turbo-transient>
+    <link rel="canonical" href="https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py" data-turbo-transient>
   <meta name="turbo-body-classes" content="logged-in env-production page-responsive page-blob">
 
 
@@ -240,7 +240,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="uMV13e4ir4q-ZRRn6L52V2fmvv9ETBA69DMHUaWaPsHwWYewtkF8rVZt-o2xnoLLcbZg3jIWEL5qJLFAwdWUaw" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="YgZQJtPYeSvuoYgCRUR0lzQm7jW3oUwoYAPuaE1CcuoqmqJLi7uqDAapZugcZIALInYwFMH7TKz-FFh5KQ3YQA" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -439,7 +439,7 @@
 
   <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-turbo="false" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">Explore</a>
 
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;naveenreddy8074&quot;,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="62a686c353b2988f26a9a3b117d29f07ddf3a5eda3f449b9454ad9c84d282a26" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;naveenreddy8074&quot;,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="07a6f9e8158a088d9de58e2ff6f626fa07191f864b87b63ddbb3d60f55cb9518" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-turbo="false" href="/settings/profile">Settings</a>
 
@@ -447,7 +447,7 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/120768704?s=40&amp;v=4" width="20" height="20" alt="@naveenreddy8074" />
       naveenreddy8074
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="PQQcH7NBVANCaRnD7YxQVdX2LVYbfzwDfWbf_KtQ9mFN23bBaeusWZrPHRRHwsSUW3QKoOffw-kjQuvj6nTyow" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0cCceAF9Pig8_bFGAbiEaMRlRDrYId-1uq9_7y0_PFehH_am29fGcuRbtZGr9hCpSudjzCSBIF_ki0vwbBs4lQ" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
@@ -482,7 +482,7 @@
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
         
 
-<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTIwNzY4NzA0IiwidCI6MTY3MTI1MzEyMX0=--fa3041ed44f8fecb282639465d4c506cec33047ee33f60981d82e1323ab5a08a" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-view-component="true" class="js-socket-channel">
+<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTIwNzY4NzA0IiwidCI6MTY3MTI1MzU3OX0=--aabd8e7cf6ea3c39035e1a2598c4dea5c288742592baf24a21493e4ae2b3f5b4" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-view-component="true" class="js-socket-channel">
   <a id="AppHeader-notifications-button" href="/notifications"
     class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
 
@@ -639,7 +639,7 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette">
     <command-palette
       class="command-palette color-bg-default rounded-3 border color-shadow-small"
-      return-to=/m0by314/raspberry_pi_home_security_system/blob/master/README.md
+      return-to=/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py
       user-id="120768704"
       activation-hotkey="Mod+k,Mod+Alt+k"
       command-mode-hotkey="Mod+Shift+k"
@@ -1606,7 +1606,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="4498ca37da34062d06facaa7f940f91a034413f152c8e81ba63f046f514ee6b7" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
+        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="72e29da2d218b68e845441b8ab16bce4e7573504a22a67f39bbc02e409aae502" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
             <span
               hidden
               
@@ -1658,7 +1658,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bU9oZZ43ZK7lYHNMLhdefdq1r-JXY0K1_FOBj2MoqH2d8KYX1n8xL6FfS6dSwCjhBh6fKy1DHhWZSye0yL8Dtw" autocomplete="off" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="kQ6wc9FvM-X01ZZYs1QUbT8aoEIPurbYLQ7WC4tQFcJhsX4BmSdmZLDqrrPPg2Lx47GQi3Wa6nhIFnAwIMe-CA" autocomplete="off" />
 
                 <input type="hidden" name="repository_id" value="186301327">
 
@@ -1786,7 +1786,7 @@
           hidden
         >
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Tys8nhrWap9CHEfZJuVbSm5IyJsjSz4iAiNkUmrYWqG_lPLsUp4_HgYjfzJaMi3WsuP4UllrYoJnO8JpwU_xaw" autocomplete="off" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="3FAk5NsRwvDEjaiNvp4NZN5ubBNzW1Q8y9H-ocfnUBUs7-qWk1mXcYCykGbCSXv4AsVc2gl7CJyuyViabHD73w" autocomplete="off" />
 
               <input type="hidden" name="repository_id" value="186301327">
 
@@ -1937,7 +1937,7 @@
 
   <li>
         <div data-view-component="true" class="BtnGroup">
-        <a icon="repo-forked" href="/m0by314/raspberry_pi_home_security_system/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="569f7fad73dc43b133112114077176e71c38f37783a81638d41b79debd378248" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of m0by314/raspberry_pi_home_security_system" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+        <a icon="repo-forked" href="/m0by314/raspberry_pi_home_security_system/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="757779e8e2978d3e8f7afa3d1453bfa1fd74b273b6b993e44e37bf2d101a1ca3" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of m0by314/raspberry_pi_home_security_system" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>Fork
           <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="12" data-view-component="true" class="Counter">12</span>
@@ -1955,13 +1955,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-20dcee">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-fac5ce">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-20dcee"
+        id="filter-menu-fac5ce"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2003,10 +2003,10 @@
 
   <div data-view-component="true" class="js-toggler-container js-social-container starring-container d-flex">
     <div data-view-component="true" class="starred BtnGroup flex-1">
-      <form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="yEMpP6yNWZEOh91ruMevckaiWdHTFBv1Mb4bbKCIY-BQwHX4e-XFRFE6LH8aR6vCz_XJ418Vk6IJyowMIK6WNg" autocomplete="off" />
-          <input type="hidden" value="LEXgOM9u6q5HCRPDbVuHWkd6Muf2D_v2nofeNoRpx3i0xrz_GAZ2exi04tfP24Pqzi2i1XoOc6Gm80lWBE8yrg" data-csrf="true" class="js-confirm-csrf-token" />
+      <form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SzgaLWWMAeF8XnuapOGjg31ri4nX_wdSa9Wuer7GdJzTu0bqsuSdNCPjio4GYacz9Dwbu1v-jwVToTkaPuCBSg" autocomplete="off" />
+          <input type="hidden" value="rW_xplFzSfTOnUZxUk008f7cB6d3Bt-bVf1Qi6CGsFM17K1hhhvVIZEgt2XwzTBBd4uXlfsHV8xticfrIKBFhQ" data-csrf="true" class="js-confirm-csrf-token" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="5e749e2681ae0d9b104e3bf0802239a454e4b4b2bc21a897d60da89c7258f5a7" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (21)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="3c6918fbd927aea91241df245aa1621cc1c9e36d2df73d696516469be0bb60cf" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (21)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Starred
@@ -2024,13 +2024,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-b31550">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-cf6de8">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-b31550"
+        id="filter-menu-cf6de8"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2051,9 +2051,9 @@
 </details>
 </div>
     <div data-view-component="true" class="unstarred BtnGroup flex-1">
-      <form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ZRAk-v28JtmIHgu2YHDhodA_24kjorD3N7acj_mobyI1sgmqgOnHOaejbIVCHLGMEJKuKC8Dblr_yAqNu7OuFw" autocomplete="off" />
+      <form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lYSToAm-d80wW6CTgkQkEmeBz0FAQpC_fuxl8BzEKdLFJr7wdOuWLR_mx6CgKHQ_pyy64EzjThK2kvPyXt_o5w" autocomplete="off" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="6b979a74181be7a823f191d2b57bc21481056125a6d0049626aac91673dc62ca" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (21)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="e94e22f535715122c06d34b41dff4f6bbdce9983eaf4416b068c04232656839b" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (21)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Star
@@ -2071,13 +2071,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-b31550">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-cf6de8">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-b31550"
+        id="filter-menu-cf6de8"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2264,7 +2264,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/m0by314/raspberry_pi_home_security_system/blob/0e23684f13fd5c4c56131c195f8107a742364b95/README.md">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/m0by314/raspberry_pi_home_security_system/blob/0e23684f13fd5c4c56131c195f8107a742364b95/lib/camera.py">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -2272,7 +2272,7 @@
   <details
     class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
     id="branch-select-menu"
-    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="d81441cbfc4ad92b0d17a0aad57576f1f20cf921b95878f1ffd37ed7d7541801">
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="71119b9f28d9930a4eaa3c487ba14f416fb16b370150b0771bdb97a54eca2f14">
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
@@ -2353,7 +2353,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/m0by314/raspberry_pi_home_security_system/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/m0by314/raspberry_pi_home_security_system/blob/{{ urlEncodedRefName }}/lib/camera.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2395,7 +2395,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/m0by314/raspberry_pi_home_security_system/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/m0by314/raspberry_pi_home_security_system/blob/{{ urlEncodedRefName }}/lib/camera.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2456,7 +2456,96 @@
 
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/m0by314/raspberry_pi_home_security_system"><span>raspberry_pi_home_security_system</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/m0by314/raspberry_pi_home_security_system"><span>raspberry_pi_home_security_system</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/m0by314/raspberry_pi_home_security_system/tree/master/lib"><span>lib</span></a></span><span class="separator">/</span><strong class="final-path">camera.py</strong>
+      <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+    <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="7a0a890748fc18957b630c0b9e18b4bb6e58c32030d0ee3bde1c2b751c45ea8c" data-view-component="true" class="Link--secondary css-truncate btn-link">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+</svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+</summary>  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L7">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>Camera</span>
+              <span class="flex-auto d-flex flex-justify-end">Class</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L14">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>__init__</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L18">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>start_recording</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L37">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>_convert_h264_to_mp4</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L54">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>_remove_file</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L67">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>take_photo</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L78">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>purge_records</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:186301327,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="a0269e4097150c345d4c9e4ec2d9aa2354642c0061bcaa718c3c471c50a80669" href="/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py#L94">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>__del__</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
   </h2>
     <a href="/m0by314/raspberry_pi_home_security_system/find/master" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
 </a>
@@ -2467,7 +2556,7 @@
 </summary>
   <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="34fcf7dad3d55f99cafd833f97491b1528cb3b635031a4ab03d4c1a52582d301" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/m0by314/raspberry_pi_home_security_system/find/master">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="d96571ffad45d2e127fc513063dd36a40dc6be0e3ce2847788b5e35d1068bdd7" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/m0by314/raspberry_pi_home_security_system/find/master">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -2477,15 +2566,21 @@
               <span class="text-small color-fg-muted" aria-hidden="true">L</span>
             </span>
 </button>        </li>
+        <li data-toggle-for="blob-more-options-details">
+            <button data-toggle-for="jumpto-symbol-select-menu" type="button" data-view-component="true" class="dropdown-item btn-link">    <span class="d-flex flex-items-baseline">
+              <span class="flex-auto">Go to definition</span>
+              <span class="text-small color-fg-muted" aria-hidden="true">R</span>
+            </span>
+</button>        </li>
         <li class="dropdown-divider" role="none"></li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="lib/camera.py" data-view-component="true" class="dropdown-item cursor-pointer">
     
             Copy path
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/m0by314/raspberry_pi_home_security_system/blob/0e23684f13fd5c4c56131c195f8107a742364b95/README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/m0by314/raspberry_pi_home_security_system/blob/0e23684f13fd5c4c56131c195f8107a742364b95/lib/camera.py" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -2517,7 +2612,7 @@
     <include-fragment src="/m0by314/raspberry_pi_home_security_system/spoofed_commit_check/0e23684f13fd5c4c56131c195f8107a742364b95" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  <include-fragment src="/m0by314/raspberry_pi_home_security_system/contributors/master/README.md" class="commit-loader">
+  <include-fragment src="/m0by314/raspberry_pi_home_security_system/contributors/master/lib/camera.py" class="commit-loader">
     <div class="Box-header d-flex flex-items-center">
       <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
       <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -2540,93 +2635,34 @@
 
 
 
-    <readme-toc>
-
+  
     <div data-target="readme-toc.content" class="Box mt-3 position-relative">
       
   <div
-    class="Box-header js-blob-header blob-header js-sticky js-position-sticky top-0 p-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
-    style="position: sticky; z-index: 1;"
+    class="Box-header js-blob-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
   >
-
-      <details
-  data-target="readme-toc.trigger"
-  data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}"
-  data-menu-hydro-click-hmac="4cd0b30f2f20f8535983d6c827831dfece470d27fa5bb7d02e2046450dc47eec"
-  class="dropdown details-reset details-overlay"
->
-  <summary
-    class="btn btn-octicon m-0 mr-2 p-2"
-    aria-haspopup="true"
-    aria-label="Table of Contents">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-list-unordered">
-    <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
-</svg>
-  </summary>
-
-
-  <details-menu class="SelectMenu" role="menu">
-    <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
-
-        <div class="SelectMenu-filter">
-          <input
-            class="SelectMenu-input form-control js-filterable-field"
-            id="toc-filter-field"
-            type="text"
-            autocomplete="off"
-            spellcheck="false"
-            autofocus
-            placeholder="Filter headings"
-            aria-label="Filter headings">
-        </div>
-
-      <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" data-filterable-for="toc-filter-field" data-filterable-type="substring">
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 text-emphasized" style="-webkit-box-orient: vertical; padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#home-security-system-with-raspberry-pi-and-sending-notifications-with-a-telegram-bot">Home security system with Raspberry Pi and sending notifications with a Telegram bot</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#how-it-works">How it works</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#prerequisites">Prerequisites.</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#connect-the-pir-sensor">Connect the PIR sensor</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#setup">Setup</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#installing">Installing</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#bots-commands">Bot's commands</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#details">Details</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#testing">Testing</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#uninstall">Uninstall</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#built-with">Built With</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#hardware">Hardware:</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="0c644def624a7182be6aaf9069e313f1dbdc6779b153cefdc29bde74a89cd8a6" href="#libraries">Libraries:</a>
-      </div>
-    </div>
-  </details-menu>
-</details>
 
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      80 lines (58 sloc)
+      95 lines (79 sloc)
       <span class="file-info-divider"></span>
-    2.52 KB
+    3.08 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
-        <div class="BtnGroup">
-      <a href="/m0by314/raspberry_pi_home_security_system/blob/master/README.md?plain=1" data-permalink-href="/m0by314/raspberry_pi_home_security_system/blob/0e23684f13fd5c4c56131c195f8107a742364b95/README.md?plain=1" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  js-permalink-replaceable-link btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
-</svg>
-</a>      <a href="/m0by314/raspberry_pi_home_security_system/blob/master/README.md" data-permalink-href="/m0by314/raspberry_pi_home_security_system/blob/0e23684f13fd5c4c56131c195f8107a742364b95/README.md" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
-    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path>
-</svg>
-</a>  </div>
-
+      
 
     <div class="BtnGroup">
-        <a data-permalink-href="/m0by314/raspberry_pi_home_security_system/raw/0e23684f13fd5c4c56131c195f8107a742364b95/README.md" href="/m0by314/raspberry_pi_home_security_system/raw/master/README.md" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
-</a>          <a data-permalink-href="/m0by314/raspberry_pi_home_security_system/blame/0e23684f13fd5c4c56131c195f8107a742364b95/README.md" href="/m0by314/raspberry_pi_home_security_system/blame/master/README.md" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
+        <a data-permalink-href="/m0by314/raspberry_pi_home_security_system/raw/0e23684f13fd5c4c56131c195f8107a742364b95/lib/camera.py" href="/m0by314/raspberry_pi_home_security_system/raw/master/lib/camera.py" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
+</a>          <a data-permalink-href="/m0by314/raspberry_pi_home_security_system/blame/0e23684f13fd5c4c56131c195f8107a742364b95/lib/camera.py" href="/m0by314/raspberry_pi_home_security_system/blame/master/lib/camera.py" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
 </a>    </div>
 
     <div class="d-flex">
         
 <div class="ml-1" data-test-selector="edit-dropdown-menu-component">
-  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/edit/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6FeaFuYW7BXd5b-lG17iI8QwELCfkecHuKADy-fgbaZdvSm4a6zhODGqR0qUtMBazRkCyUzMYzh-O_iTRAbfEw" autocomplete="off" />
+  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/edit/master/lib/camera.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="iZsFT9aU_8V8kbpApAJtipJD5ABreZXuWrwv7zcYMtE98BLCBiJSL8RXtymxlnEzQQATDKBccJwobqfbALLYNA" autocomplete="off" />
       <button title="Fork this repository and edit the file" data-hotkey="e" data-disable-with="" data-test-selector="edit-icon-button" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
 </svg>
@@ -2636,7 +2672,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/edit/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="H-tTretgAaj7ooTmHou9K0VbeJxhGvA6qSlHzGB0plSqAeADZtoMhRftfAmRYZ9STHJq5bJHdAVvsryUw5IU4Q" autocomplete="off" />
+          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/edit/master/lib/camera.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Gi22adZBrcHAmjweX7GaKpolmITh8xPScrwMvfCoOYGuRqHkBvcAK3hcMXdKJYaTSWZviCrW9qAAboSJxwLTZA" autocomplete="off" />
               <button title="Fork this repository and edit the file" data-test-selector="edit-text-button" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
@@ -2655,10 +2691,10 @@
 
         
 <div data-test-selector="remote-clipboard-copy">
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/m0by314/raspberry_pi_home_security_system/raw/0e23684f13fd5c4c56131c195f8107a742364b95/README.md" data-action="click:remote-clipboard-copy#remoteCopy">
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/m0by314/raspberry_pi_home_security_system/raw/0e23684f13fd5c4c56131c195f8107a742364b95/lib/camera.py" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="753207c9fa3c05d0a5756c93ddd10739b0213ba2caf590853bc05d3cc67d63c1" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="94946cfde6fd8013e2d0c5a4fbff1d97a9e736e2ee5ef275a7c711d4e8491208" aria-label="Copy raw contents">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
 </svg>
@@ -2683,7 +2719,7 @@
 </remote-clipboard-copy></div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/delete/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lJq_YsuPk-ZfesMxb-QtrO3Ax0KNbT1SAYo_JBv94JsPA_zuzlk7ZXyKWzFo1Kgyon0JScjhS3wnXgGhbTK7BQ" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/m0by314/raspberry_pi_home_security_system/delete/master/lib/camera.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oaeNsIzTkQXKRQhdHqNPZZDoZXaYgxlkeMLXF4wI7YVtl3wg4UA9fahDpHfn_5fm9xpqU_1FSARz-jZwihYGxQ" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this repository and delete the file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2696,7 +2732,7 @@
     <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
       <details class="dropdown details-reset details-overlay d-inline-block">
         <summary
-          class="js-blob-dropdown-click btn-octicon p-2"
+          class="js-blob-dropdown-click btn-octicon"
           aria-haspopup="true"
           aria-label="possible actions"
           data-test-selector="small-screen-more-options"
@@ -2716,15 +2752,15 @@
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/m0by314/raspberry_pi_home_security_system/raw/master/README.md">
+            <a class="dropdown-item" href="/m0by314/raspberry_pi_home_security_system/raw/master/lib/camera.py">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/m0by314/raspberry_pi_home_security_system/raw/master/README.md" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/m0by314/raspberry_pi_home_security_system/raw/master/lib/camera.py" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/README.md&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="753207c9fa3c05d0a5756c93ddd10739b0213ba2caf590853bc05d3cc67d63c1">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:186301327,&quot;originating_url&quot;:&quot;https://github.com/m0by314/raspberry_pi_home_security_system/blob/master/lib/camera.py&quot;,&quot;user_id&quot;:120768704}}" data-hydro-click-hmac="94946cfde6fd8013e2d0c5a4fbff1d97a9e736e2ee5ef275a7c711d4e8491208">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -2747,20 +2783,20 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/m0by314/raspberry_pi_home_security_system/blame/master/README.md">
+              <a class="dropdown-item" href="/m0by314/raspberry_pi_home_security_system/blame/master/lib/camera.py">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/m0by314/raspberry_pi_home_security_system/edit/master/README.md">Edit file</a>
+                <a class="dropdown-item" href="/m0by314/raspberry_pi_home_security_system/edit/master/lib/camera.py">Edit file</a>
               </li>
                 <li>
                   <a class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click" data-test-selector="small-screen-github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:186301327,&quot;actor_id&quot;:120768704,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/">Open with github.dev</a>
                 </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/m0by314/raspberry_pi_home_security_system/delete/master/README.md">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/m0by314/raspberry_pi_home_security_system/delete/master/lib/camera.py">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2768,90 +2804,460 @@
 </div>
 
 
-        <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1 dir="auto"><a id="user-content-home-security-system-with-raspberry-pi-and-sending-notifications-with-a-telegram-bot" class="anchor" aria-hidden="true" href="#home-security-system-with-raspberry-pi-and-sending-notifications-with-a-telegram-bot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Home security system with Raspberry Pi and sending notifications with a Telegram bot</h1>
-<p dir="auto"><a href="https://github.com/m0by314/Raspberry_Pi_home_security_system/actions?query=workflow%3ACI"><img src="https://github.com/m0by314/Raspberry_Pi_home_security_system/workflows/CI/badge.svg?event=push" alt="Linter" style="max-width: 100%;"></a></p>
-<p dir="auto">Tutorial to build a home security system with Raspberry Pi and sending notifications with a Telegram bot.</p>
-<h3 dir="auto"><a id="user-content-how-it-works" class="anchor" aria-hidden="true" href="#how-it-works"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How it works</h3>
-<ul dir="auto">
-<li>When a movement is detected, the application records a video that is sent to your phone by the Telegram bot.</li>
-<li>Once installed, the surveillance system is managed from your smartphone with <a href="#Bots-commands">bot commands</a> from the Telegram app.</li>
-<li>The system is started by a systemd service activated at boot time</li>
-</ul>
-<h3 dir="auto"><a id="user-content-prerequisites" class="anchor" aria-hidden="true" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Prerequisites.</h3>
-<ul dir="auto">
-<li>Raspberry Pi Camera Module</li>
-<li>PIR motion sensor module</li>
-<li>3 female-to-female jumper wires</li>
-<li><a href="https://core.telegram.org/bots#3-how-do-i-create-a-bot" rel="nofollow">Tutorial for create your Telegram Bot</a></li>
-<li>After starting the bot on your smartphone, you must retrieve your chat_id at the following address:
-<ul dir="auto">
-<li><a href="https://api.telegram.org/bot" rel="nofollow">https://api.telegram.org/bot</a>&lt;token_id&gt;/getUpdates</li>
-</ul>
-</li>
-</ul>
-<h3 dir="auto"><a id="user-content-connect-the-pir-sensor" class="anchor" aria-hidden="true" href="#connect-the-pir-sensor"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Connect the PIR sensor</h3>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/m0by314/raspberry_pi_home_security_system/blob/master/img/pir-diagram.png"><img src="/m0by314/raspberry_pi_home_security_system/raw/master/img/pir-diagram.png" alt="image" style="max-width: 100%;"></a></p>
-<h2 dir="auto"><a id="user-content-setup" class="anchor" aria-hidden="true" href="#setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Setup</h2>
-<ul dir="auto">
-<li>Open the <code>config.py</code> file and configure the TOKEN_ID and CHAT_ID variables with your token_id and your chat_id</li>
-</ul>
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="    # Variable to configure
-    TOKEN_ID = 'Your token_id'
-    CHAT_ID = 'Your chat_id'"><pre class="notranslate"><code>    # Variable to configure
-    TOKEN_ID = 'Your token_id'
-    CHAT_ID = 'Your chat_id'
-</code></pre></div>
-<h3 dir="auto"><a id="user-content-installing" class="anchor" aria-hidden="true" href="#installing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Installing</h3>
-<p dir="auto">The installation requires root rights:</p>
-<p dir="auto"><strong>A reboot will be done at the end of the installation to activate the camera hardware</strong></p>
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo make install"><pre class="notranslate"><code>sudo make install
-</code></pre></div>
-<h3 dir="auto"><a id="user-content-bots-commands" class="anchor" aria-hidden="true" href="#bots-commands"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Bot's commands</h3>
-<ul dir="auto">
-<li>/start  : start the home surveillance</li>
-<li>/stop   : stop the home surveillance</li>
-<li>/status : show the status of home surveillance</li>
-<li>/photo  : take a picture</li>
-<li>/video time= :  records a video, by default delay is 60s</li>
-<li>/clean  : remove all files in video folder</li>
-<li>/help   : show help</li>
-</ul>
-<h3 dir="auto"><a id="user-content-details" class="anchor" aria-hidden="true" href="#details"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Details</h3>
-<ul dir="auto">
-<li>
-<p dir="auto">By default, the duration of the video is set to 60s. If you want change this, you need to modify the VIDEO_TIME constant in <code>config.py</code></p>
-</li>
-<li>
-<p dir="auto">It's possible to add other commands to the bot in <code>app.py</code></p>
-</li>
-</ul>
-<h3 dir="auto"><a id="user-content-testing" class="anchor" aria-hidden="true" href="#testing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Testing</h3>
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="make test"><pre class="notranslate"><code>make test
-</code></pre></div>
-<h3 dir="auto"><a id="user-content-uninstall" class="anchor" aria-hidden="true" href="#uninstall"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Uninstall</h3>
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo make uninstall"><pre class="notranslate"><code>sudo make uninstall
-</code></pre></div>
-<p dir="auto"><strong>A reboot will be done at the end to deactivate the camera hardware</strong></p>
-<h2 dir="auto"><a id="user-content-built-with" class="anchor" aria-hidden="true" href="#built-with"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Built With</h2>
-<h3 dir="auto"><a id="user-content-hardware" class="anchor" aria-hidden="true" href="#hardware"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Hardware:</h3>
-<ul dir="auto">
-<li>Raspberry Pi Zero WH</li>
-<li>Infrared Camera v2 8MP</li>
-<li>HC-SR501 PIR Motion Sensor Module</li>
-</ul>
-<h3 dir="auto"><a id="user-content-libraries" class="anchor" aria-hidden="true" href="#libraries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Libraries:</h3>
-<ul dir="auto">
-<li><a href="https://pypi.org/project/gpiozero/" rel="nofollow">gpiozero</a></li>
-<li><a href="https://github.com/python-telegram-bot/python-telegram-bot">python-telegram-bot</a></li>
-<li><a href="https://pypi.org/project/picamera/" rel="nofollow">picamera</a></li>
-</ul>
-</article>
-  </div>
+      
+    <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python  gist-border-0">
+
+        
+<div class="js-check-bidi js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+  
+    <span>
+      This file contains bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="Python" data-tagsearch-path="lib/camera.py">
+        <tr>
+          <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-s>&quot;&quot;&quot; Package for interfacing with Raspberry PI camera. &quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L2" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>subprocess</span></td>
+        </tr>
+        <tr>
+          <td id="L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>time</span></td>
+        </tr>
+        <tr>
+          <td id="L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>os</span></td>
+        </tr>
+        <tr>
+          <td id="L5" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="LC5" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L6" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="LC6" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L7" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>Camera</span>:</td>
+        </tr>
+        <tr>
+          <td id="L8" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="LC8" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L9" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-s>    Class to interfaces with Raspberry Pi Camera module.</span></td>
+        </tr>
+        <tr>
+          <td id="L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-s>    Photos and videos are named photo-%H%M%S-%Y%m%d.jpeg and vid-%H%M%S-%Y%m%d.mp4 respectively.</span></td>
+        </tr>
+        <tr>
+          <td id="L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
+          <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-s></span></td>
+        </tr>
+        <tr>
+          <td id="L12" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
+          <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class=pl-s>    :param folder: allows you to define the folder where the records are stored.</span></td>
+        </tr>
+        <tr>
+          <td id="L13" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
+          <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class=pl-s>    &quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L14" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
+          <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(<span class=pl-s1>self</span>, <span class=pl-s1>camera</span>, <span class=pl-s1>folder</span>: <span class=pl-s1>str</span>):</td>
+        </tr>
+        <tr>
+          <td id="L15" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
+          <td id="LC15" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_camera</span> <span class=pl-c1>=</span> <span class=pl-s1>camera</span></td>
+        </tr>
+        <tr>
+          <td id="L16" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
+          <td id="LC16" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_registration_folder</span> <span class=pl-c1>=</span> <span class=pl-s1>os</span>.<span class=pl-s1>path</span>.<span class=pl-en>abspath</span>(<span class=pl-s1>folder</span>)</td>
+        </tr>
+        <tr>
+          <td id="L17" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
+          <td id="LC17" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L18" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
+          <td id="LC18" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>start_recording</span>(<span class=pl-s1>self</span>, <span class=pl-s1>delay</span><span class=pl-c1>=</span><span class=pl-c1>60</span>):</td>
+        </tr>
+        <tr>
+          <td id="L19" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="19"></td>
+          <td id="LC19" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L20" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="20"></td>
+          <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        Starts recording the video for a time defined by a delay parameter.</span></td>
+        </tr>
+        <tr>
+          <td id="L21" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="21"></td>
+          <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class=pl-s></span></td>
+        </tr>
+        <tr>
+          <td id="L22" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="22"></td>
+          <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        :param delay: recording time</span></td>
+        </tr>
+        <tr>
+          <td id="L23" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="23"></td>
+          <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        :return: video at mp4 format</span></td>
+        </tr>
+        <tr>
+          <td id="L24" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="24"></td>
+          <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        &quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L25" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="25"></td>
+          <td id="LC25" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>video_h264</span> <span class=pl-c1>=</span> <span class=pl-s1>os</span>.<span class=pl-s1>path</span>.<span class=pl-en>join</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_registration_folder</span>,</td>
+        </tr>
+        <tr>
+          <td id="L26" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="26"></td>
+          <td id="LC26" class="blob-code blob-code-inner js-file-line">                                  <span class=pl-s>&#39;vid-&#39;</span> <span class=pl-c1>+</span> <span class=pl-s1>time</span>.<span class=pl-en>strftime</span>(<span class=pl-s>&quot;%H%M%S-%Y%m%d&quot;</span>) <span class=pl-c1>+</span> <span class=pl-s>&#39;.h264&#39;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L27" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="27"></td>
+          <td id="LC27" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>video_mp4</span> <span class=pl-c1>=</span> <span class=pl-s1>os</span>.<span class=pl-s1>path</span>.<span class=pl-en>join</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_registration_folder</span>,</td>
+        </tr>
+        <tr>
+          <td id="L28" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="28"></td>
+          <td id="LC28" class="blob-code blob-code-inner js-file-line">                                 <span class=pl-s>&#39;vid-&#39;</span> <span class=pl-c1>+</span> <span class=pl-s1>time</span>.<span class=pl-en>strftime</span>(<span class=pl-s>&quot;%H%M%S-%Y%m%d&quot;</span>) <span class=pl-c1>+</span> <span class=pl-s>&#39;.mp4&#39;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L29" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="29"></td>
+          <td id="LC29" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_camera</span>.<span class=pl-en>start_recording</span>(<span class=pl-s1>video_h264</span>)</td>
+        </tr>
+        <tr>
+          <td id="L30" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="30"></td>
+          <td id="LC30" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>time</span>.<span class=pl-en>sleep</span>(<span class=pl-en>int</span>(<span class=pl-s1>delay</span>))</td>
+        </tr>
+        <tr>
+          <td id="L31" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="31"></td>
+          <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_camera</span>.<span class=pl-en>stop_recording</span>()</td>
+        </tr>
+        <tr>
+          <td id="L32" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="32"></td>
+          <td id="LC32" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L33" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="33"></td>
+          <td id="LC33" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># convert video at mp4 format</span></td>
+        </tr>
+        <tr>
+          <td id="L34" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="34"></td>
+          <td id="LC34" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-en>_convert_h264_to_mp4</span>(<span class=pl-s1>video_h264</span>, <span class=pl-s1>video_mp4</span>)</td>
+        </tr>
+        <tr>
+          <td id="L35" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="35"></td>
+          <td id="LC35" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>video_mp4</span></td>
+        </tr>
+        <tr>
+          <td id="L36" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="36"></td>
+          <td id="LC36" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L37" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="37"></td>
+          <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>_convert_h264_to_mp4</span>(<span class=pl-s1>self</span>, <span class=pl-s1>h264</span>, <span class=pl-s1>mp4</span>):</td>
+        </tr>
+        <tr>
+          <td id="L38" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="38"></td>
+          <td id="LC38" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L39" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="39"></td>
+          <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        Converted video format h264 in mp4.</span></td>
+        </tr>
+        <tr>
+          <td id="L40" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="40"></td>
+          <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class=pl-s></span></td>
+        </tr>
+        <tr>
+          <td id="L41" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="41"></td>
+          <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        :raise: OSError</span></td>
+        </tr>
+        <tr>
+          <td id="L42" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="42"></td>
+          <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        &quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L43" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="43"></td>
+          <td id="LC43" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>command</span> <span class=pl-c1>=</span> <span class=pl-s>F&quot;MP4Box -add <span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>h264</span><span class=pl-kos>}</span></span> <span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>mp4</span><span class=pl-kos>}</span></span>&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L44" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="44"></td>
+          <td id="LC44" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
+        </tr>
+        <tr>
+          <td id="L45" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="45"></td>
+          <td id="LC45" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>subprocess</span>.<span class=pl-en>check_output</span>(<span class=pl-s1>command</span>, <span class=pl-s1>stderr</span><span class=pl-c1>=</span><span class=pl-s1>subprocess</span>.<span class=pl-v>STDOUT</span>, <span class=pl-s1>shell</span><span class=pl-c1>=</span><span class=pl-c1>True</span>)</td>
+        </tr>
+        <tr>
+          <td id="L46" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="46"></td>
+          <td id="LC46" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-s1>subprocess</span>.<span class=pl-v>CalledProcessError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
+        </tr>
+        <tr>
+          <td id="L47" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="47"></td>
+          <td id="LC47" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>print</span>(<span class=pl-s>F&#39;FAIL:<span class=pl-cce>\n</span>cmd:<span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>err</span>.<span class=pl-s1>cmd</span><span class=pl-kos>}</span></span><span class=pl-cce>\n</span>output:<span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>err</span>.<span class=pl-s1>output</span><span class=pl-kos>}</span></span>&#39;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L48" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="48"></td>
+          <td id="LC48" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>raise</span> <span class=pl-v>OSError</span> <span class=pl-k>from</span> <span class=pl-s1>subprocess</span>.<span class=pl-v>CalledProcessError</span></td>
+        </tr>
+        <tr>
+          <td id="L49" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="49"></td>
+          <td id="LC49" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L50" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="50"></td>
+          <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># remove h264 file after convert to mp4 format</span></td>
+        </tr>
+        <tr>
+          <td id="L51" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="51"></td>
+          <td id="LC51" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-en>_remove_file</span>(<span class=pl-s1>h264</span>)</td>
+        </tr>
+        <tr>
+          <td id="L52" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="52"></td>
+          <td id="LC52" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L53" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="53"></td>
+          <td id="LC53" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>staticmethod</span></span></td>
+        </tr>
+        <tr>
+          <td id="L54" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="54"></td>
+          <td id="LC54" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>_remove_file</span>(<span class=pl-s1>file</span>):</td>
+        </tr>
+        <tr>
+          <td id="L55" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="55"></td>
+          <td id="LC55" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L56" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="56"></td>
+          <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        Remove a specific file</span></td>
+        </tr>
+        <tr>
+          <td id="L57" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="57"></td>
+          <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class=pl-s></span></td>
+        </tr>
+        <tr>
+          <td id="L58" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="58"></td>
+          <td id="LC58" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        :raise OSError</span></td>
+        </tr>
+        <tr>
+          <td id="L59" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="59"></td>
+          <td id="LC59" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        &quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L60" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="60"></td>
+          <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>remove_cmd</span> <span class=pl-c1>=</span> <span class=pl-s>F&quot;rm <span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>file</span><span class=pl-kos>}</span></span>&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L61" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="61"></td>
+          <td id="LC61" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
+        </tr>
+        <tr>
+          <td id="L62" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="62"></td>
+          <td id="LC62" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>subprocess</span>.<span class=pl-en>check_output</span>(<span class=pl-s1>remove_cmd</span>, <span class=pl-s1>stderr</span><span class=pl-c1>=</span><span class=pl-s1>subprocess</span>.<span class=pl-v>STDOUT</span>, <span class=pl-s1>shell</span><span class=pl-c1>=</span><span class=pl-c1>True</span>)</td>
+        </tr>
+        <tr>
+          <td id="L63" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="63"></td>
+          <td id="LC63" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-s1>subprocess</span>.<span class=pl-v>CalledProcessError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
+        </tr>
+        <tr>
+          <td id="L64" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="64"></td>
+          <td id="LC64" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>print</span>(<span class=pl-s>F&#39;FAIL:<span class=pl-cce>\n</span>cmd:<span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>err</span>.<span class=pl-s1>cmd</span><span class=pl-kos>}</span></span><span class=pl-cce>\n</span>output:<span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>err</span>.<span class=pl-s1>output</span><span class=pl-kos>}</span></span>&#39;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L65" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="65"></td>
+          <td id="LC65" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>raise</span> <span class=pl-v>OSError</span> <span class=pl-k>from</span> <span class=pl-s1>subprocess</span>.<span class=pl-v>CalledProcessError</span></td>
+        </tr>
+        <tr>
+          <td id="L66" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="66"></td>
+          <td id="LC66" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L67" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="67"></td>
+          <td id="LC67" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>take_photo</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L68" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="68"></td>
+          <td id="LC68" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L69" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="69"></td>
+          <td id="LC69" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        Take a photo.</span></td>
+        </tr>
+        <tr>
+          <td id="L70" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="70"></td>
+          <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class=pl-s></span></td>
+        </tr>
+        <tr>
+          <td id="L71" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="71"></td>
+          <td id="LC71" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        :return: photo at format .jpeg</span></td>
+        </tr>
+        <tr>
+          <td id="L72" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="72"></td>
+          <td id="LC72" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        &quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L73" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="73"></td>
+          <td id="LC73" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>photo</span> <span class=pl-c1>=</span> <span class=pl-s1>os</span>.<span class=pl-s1>path</span>.<span class=pl-en>join</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_registration_folder</span>, <span class=pl-s>&#39;photo-&#39;</span> <span class=pl-c1>+</span></td>
+        </tr>
+        <tr>
+          <td id="L74" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="74"></td>
+          <td id="LC74" class="blob-code blob-code-inner js-file-line">                             <span class=pl-s1>time</span>.<span class=pl-en>strftime</span>(<span class=pl-s>&quot;%H%M%S-%Y%m%d&quot;</span>) <span class=pl-c1>+</span> <span class=pl-s>&#39;.jpeg&#39;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L75" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="75"></td>
+          <td id="LC75" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_camera</span>.<span class=pl-en>capture</span>(<span class=pl-s1>photo</span>)</td>
+        </tr>
+        <tr>
+          <td id="L76" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="76"></td>
+          <td id="LC76" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>photo</span></td>
+        </tr>
+        <tr>
+          <td id="L77" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="77"></td>
+          <td id="LC77" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L78" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="78"></td>
+          <td id="LC78" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>purge_records</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L79" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="79"></td>
+          <td id="LC79" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L80" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="80"></td>
+          <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        Deletes records from the folder.</span></td>
+        </tr>
+        <tr>
+          <td id="L81" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="81"></td>
+          <td id="LC81" class="blob-code blob-code-inner js-file-line"><span class=pl-s></span></td>
+        </tr>
+        <tr>
+          <td id="L82" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="82"></td>
+          <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        :return: string result</span></td>
+        </tr>
+        <tr>
+          <td id="L83" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="83"></td>
+          <td id="LC83" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        :raise: OSError</span></td>
+        </tr>
+        <tr>
+          <td id="L84" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="84"></td>
+          <td id="LC84" class="blob-code blob-code-inner js-file-line"><span class=pl-s>        &quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L85" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="85"></td>
+          <td id="LC85" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>command</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;cd &quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>self</span>.<span class=pl-s1>_registration_folder</span> <span class=pl-c1>+</span> <span class=pl-s>&quot; &amp;&amp; rm -f *&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L86" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="86"></td>
+          <td id="LC86" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
+        </tr>
+        <tr>
+          <td id="L87" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="87"></td>
+          <td id="LC87" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>subprocess</span>.<span class=pl-en>check_output</span>(<span class=pl-s1>command</span>, <span class=pl-s1>stderr</span><span class=pl-c1>=</span><span class=pl-s1>subprocess</span>.<span class=pl-v>STDOUT</span>, <span class=pl-s1>shell</span><span class=pl-c1>=</span><span class=pl-c1>True</span>)</td>
+        </tr>
+        <tr>
+          <td id="L88" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="88"></td>
+          <td id="LC88" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-s1>subprocess</span>.<span class=pl-v>CalledProcessError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
+        </tr>
+        <tr>
+          <td id="L89" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="89"></td>
+          <td id="LC89" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>print</span>(<span class=pl-s>F&#39;FAIL:<span class=pl-cce>\n</span>cmd:<span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>err</span>.<span class=pl-s1>cmd</span><span class=pl-kos>}</span></span><span class=pl-cce>\n</span>output:<span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>err</span>.<span class=pl-s1>output</span><span class=pl-kos>}</span></span>&#39;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L90" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="90"></td>
+          <td id="LC90" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>raise</span> <span class=pl-v>OSError</span> <span class=pl-k>from</span> <span class=pl-s1>subprocess</span>.<span class=pl-v>CalledProcessError</span></td>
+        </tr>
+        <tr>
+          <td id="L91" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="91"></td>
+          <td id="LC91" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>else</span>:</td>
+        </tr>
+        <tr>
+          <td id="L92" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="92"></td>
+          <td id="LC92" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span> <span class=pl-en>str</span>(<span class=pl-s>&#39;The records have been deleted&#39;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L93" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="93"></td>
+          <td id="LC93" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L94" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="94"></td>
+          <td id="LC94" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__del__</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L95" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="95"></td>
+          <td id="LC95" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_camera</span>.<span class=pl-en>close</span>()</td>
+        </tr>
+  </table>
+</div>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-default border color-border-default rounded-2" aria-label="Inline file action toolbar">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+    </summary>
+    <details-menu>
+
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se ml-2 mt-2"
+      style="width:185px"
+      >
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" aria-label="Copy lines">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" aria-label="Copy permalink">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/m0by314/raspberry_pi_home_security_system/blame/0e23684f13fd5c4c56131c195f8107a742364b95/lib/camera.py">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/m0by314/raspberry_pi_home_security_system/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
 
     </div>
 
-  </readme-toc>
+    </div>
+
 
   
 
@@ -2864,6 +3270,17 @@
 </button>
 </form>    </details-dialog>
   </details>
+
+    <div class="Popover anim-scale-in js-tagsearch-popover"
+     hidden
+     data-tagsearch-url="/m0by314/raspberry_pi_home_security_system/find-definition"
+     data-tagsearch-ref="master"
+     data-tagsearch-code-nav-context="BLOB_VIEW">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
 
 
 
